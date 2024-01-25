@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.viewTeam">
+   <children>
+      <TitledPane animated="false" prefHeight="400.0" prefWidth="600.0" text="Project">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Pane prefHeight="377.0" prefWidth="600.0" style="-fx-background-color: #025154;">
+                     <children>
+                        <Separator layoutX="291.0" orientation="VERTICAL" prefHeight="414.0" prefWidth="19.0" />
+                        <Separator layoutY="42.0" prefHeight="0.0" prefWidth="600.0" />
+                        <Label alignment="CENTER" layoutX="-4.0" layoutY="14.0" prefHeight="24.0" prefWidth="295.0" text="Project" textFill="WHITE" />
+                        <Label alignment="CENTER" layoutX="301.0" layoutY="14.0" prefHeight="24.0" prefWidth="295.0" text="Leader" textFill="WHITE" />
+                        <Label alignment="CENTER" layoutY="68.0" prefHeight="24.0" prefWidth="295.0" text="MKULTRA" textFill="WHITE" />
+                        <Label alignment="CENTER" layoutX="301.0" layoutY="68.0" prefHeight="24.0" prefWidth="295.0" text="Mohammed Hussain" textFill="WHITE" />
+                        <Label alignment="CENTER" layoutX="301.0" layoutY="108.0" prefHeight="24.0" prefWidth="295.0" text="2020437921" textFill="WHITE" />
+                     </children>
+                  </Pane>
+               </children>
+            </AnchorPane>
+        </content>
+      </TitledPane>
+   </children>
+</AnchorPane>

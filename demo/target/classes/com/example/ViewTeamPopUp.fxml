@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<TitledPane fx:id="viewTeamPopUp" animated="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #025154;" text="View Team details" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.viewTeam">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+         <children>
+            <Pane layoutX="-1.0" layoutY="-1.0" prefHeight="376.0" prefWidth="600.0" style="-fx-background-color: #025154;">
+               <children>
+                  <Label alignment="CENTER" layoutX="43.0" layoutY="14.0" prefHeight="31.0" prefWidth="123.0" text="Member name" textAlignment="CENTER" textFill="WHITE" />
+                  <Label alignment="CENTER" layoutX="239.0" layoutY="14.0" prefHeight="31.0" prefWidth="123.0" text="Member ID" textAlignment="CENTER" textFill="WHITE" />
+                  <Label alignment="CENTER" layoutX="435.0" layoutY="14.0" prefHeight="31.0" prefWidth="123.0" text="Working hours" textAlignment="CENTER" textFill="WHITE" />
+                  <Separator layoutX="193.0" orientation="VERTICAL" prefHeight="377.0" prefWidth="0.0" />
+                  <Separator layoutX="407.0" orientation="VERTICAL" prefHeight="377.0" prefWidth="4.0" />
+                  <Separator layoutX="5.0" layoutY="47.0" prefHeight="0.0" prefWidth="600.0" />
+                  <Label alignment="CENTER" layoutX="43.0" layoutY="65.0" prefHeight="31.0" prefWidth="123.0" text="Ali Ahmed" textAlignment="CENTER" textFill="WHITE" />
+                  <Label alignment="CENTER" layoutX="43.0" layoutY="105.0" prefHeight="31.0" prefWidth="123.0" text="Mohammed Jaffar" textAlignment="CENTER" textFill="WHITE" />
+                  <Label alignment="CENTER" layoutX="43.0" layoutY="157.0" prefHeight="31.0" prefWidth="123.0" text="Jasem Ahmed" textAlignment="CENTER" textFill="WHITE" />
+                  <Label alignment="CENTER" layoutX="43.0" layoutY="204.0" prefHeight="31.0" prefWidth="123.0" text="Mahmood" textAlignment="CENTER" textFill="WHITE" />
+                  <Label alignment="CENTER" layoutX="43.0" layoutY="252.0" prefHeight="31.0" prefWidth="123.0" text="Mohsen" textAlignment="CENTER" textFill="WHITE" />
+                  <Label alignment="CENTER" layoutX="239.0" layoutY="65.0" prefHeight="31.0" prefWidth="123.0" text="2020322323" textAlignment="CENTER" textFill="WHITE" />
+                  <Label alignment="CENTER" layoutX="239.0" layoutY="105.0" prefHeight="31.0" prefWidth="123.0" text="2019333482" textAlignment="CENTER" textFill="WHITE" />
+                  <Label alignment="CENTER" layoutX="239.0" layoutY="157.0" prefHeight="31.0" prefWidth="123.0" text="2014749832" textAlignment="CENTER" textFill="WHITE" />
+                  <Label alignment="CENTER" layoutX="239.0" layoutY="204.0" prefHeight="31.0" prefWidth="123.0" text="201873409740" textAlignment="CENTER" textFill="WHITE" />
+                  <Label alignment="CENTER" layoutX="239.0" layoutY="252.0" prefHeight="31.0" prefWidth="123.0" text="2061231234" textAlignment="CENTER" textFill="WHITE" />
+                  <Label alignment="CENTER" layoutX="444.0" layoutY="65.0" prefHeight="31.0" prefWidth="123.0" text="7" textAlignment="CENTER" textFill="WHITE" />
+                  <Label alignment="CENTER" layoutX="444.0" layoutY="105.0" prefHeight="31.0" prefWidth="123.0" text="5" textAlignment="CENTER" textFill="WHITE" />
+                  <Label alignment="CENTER" layoutX="444.0" layoutY="157.0" prefHeight="31.0" prefWidth="123.0" text="4" textAlignment="CENTER" textFill="WHITE" />
+                  <Label alignment="CENTER" layoutX="444.0" layoutY="204.0" prefHeight="31.0" prefWidth="123.0" text="3" textAlignment="CENTER" textFill="WHITE" />
+                  <Label alignment="CENTER" layoutX="444.0" layoutY="252.0" prefHeight="31.0" prefWidth="123.0" text="2" textAlignment="CENTER" textFill="WHITE" />
+               </children>
+            </Pane>
+         </children></AnchorPane>
+  </content>
+</TitledPane>

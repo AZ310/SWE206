@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ViewTeam">
+   <children>
+      <TitledPane animated="false" prefHeight="400.0" prefWidth="600.0" text="View team details" textFill="#025154">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <SplitPane fx:id="splitpane" dividerPositions="0.8227" prefHeight="376.0" prefWidth="600.0">
+                    <items>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                           <children>
+                              <Pane prefHeight="377.0" prefWidth="493.0">
+                                 <children>
+                                    <Button fx:id="projectName" layoutX="204.0" layoutY="39.0" mnemonicParsing="false" text="Project name" textFill="#025154" />
+                                    <Separator layoutX="-1.0" layoutY="64.0" prefHeight="16.0" prefWidth="495.0" />
+                                    <Button fx:id="viewTeamDetails" layoutX="343.0" layoutY="39.0" mnemonicParsing="false" text="View team details" textFill="#025154" />
+                                    <Label alignment="CENTER" layoutX="34.0" layoutY="39.0" prefHeight="25.0" prefWidth="109.5" text="Team name" textAlignment="CENTER" textFill="#025154" />
+                                    <Label alignment="CENTER" layoutX="34.0" layoutY="88.0" prefHeight="25.0" prefWidth="109.5" text="Team name" textAlignment="CENTER" textFill="#025154" />
+                                    <Label alignment="CENTER" layoutX="34.0" layoutY="135.0" prefHeight="25.0" prefWidth="109.5" text="Team name" textAlignment="CENTER" textFill="#025154" />
+                                    <Label alignment="CENTER" layoutX="34.0" layoutY="189.0" prefHeight="25.0" prefWidth="109.5" text="Team name" textAlignment="CENTER" textFill="#025154" />
+                                    <Label alignment="CENTER" layoutX="34.0" layoutY="238.0" prefHeight="25.0" prefWidth="109.5" text="Team name" textAlignment="CENTER" textFill="#025154" />
+                                    <Button fx:id="viewTeamDetails1" layoutX="343.0" layoutY="88.0" mnemonicParsing="false" text="View team details" textFill="#025154" />
+                                    <Button fx:id="viewTeamDetails2" layoutX="343.0" layoutY="135.0" mnemonicParsing="false" text="View team details" textFill="#025154" />
+                                    <Button fx:id="viewTeamDetails3" layoutX="343.0" layoutY="189.0" mnemonicParsing="false" text="View team details" textFill="#025154" />
+                                    <Button fx:id="viewTeamDetails4" layoutX="343.0" layoutY="238.0" mnemonicParsing="false" text="View team details" textFill="#025154" />
+                                    <Button fx:id="projectName1" layoutX="204.0" layoutY="88.0" mnemonicParsing="false" text="Project name" textFill="#025154" />
+                                    <Button fx:id="projectName2" layoutX="204.0" layoutY="135.0" mnemonicParsing="false" text="Project name" textFill="#025154" />
+                                    <Button fx:id="projectName3" layoutX="204.0" layoutY="189.0" mnemonicParsing="false" text="Project name" textFill="#025154" />
+                                    <Button fx:id="projectName4" layoutX="204.0" layoutY="238.0" mnemonicParsing="false" text="Project name" textFill="#025154" />
+                                    <Separator layoutX="-1.0" layoutY="113.0" prefHeight="16.0" prefWidth="495.0" />
+                                    <Separator layoutX="-1.0" layoutY="167.0" prefHeight="16.0" prefWidth="495.0" />
+                                    <Separator layoutX="-1.0" layoutY="222.0" prefHeight="16.0" prefWidth="495.0" />
+                                    <Separator layoutX="-1.0" layoutY="263.0" prefHeight="16.0" prefWidth="495.0" />
+                                 </children>
+                              </Pane>
+                           </children>
+                        </AnchorPane>
+                      <AnchorPane fx:id="splitPane" minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" style="-fx-background-color: #025154;">
+                           <children>
+                              <Button fx:id="back" layoutX="9.0" layoutY="37.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="89.0" text="Back" textFill="#025154" />
+                           </children></AnchorPane>
+                    </items>
+                  </SplitPane>
+               </children>
+            </AnchorPane>
+        </content>
+      </TitledPane>
+   </children>
+</AnchorPane>
